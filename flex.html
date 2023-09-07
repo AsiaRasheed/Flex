@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      .container {
+        border: 10px solid black;
+      }
+      .row1 {
+        height: 90px;
+        background-color: #65a8ff;
+      }
+      .row2 {
+        display: flex;
+      }
+      .box1 {
+        width: 25%;
+        height: 90px;
+        background-color: #e67c42;
+      }
+      .box2 {
+        width: 25%;
+        height: 90px;
+        background-color: #784100;
+      }
+      .box3 {
+        width: 25%;
+        height: 90px;
+        background-color: #ff7499;
+      }
+      .box4 {
+        width: 25%;
+        height: 90px;
+        background-color: #585aaf;
+      }
+
+      .row3 {
+        display: flex;
+      }
+
+      .b1 {
+        background-color: #cd95e0;
+        width: 12.5%;
+      }
+
+      .b2 {
+        background-color: black;
+        width: 75%;
+        height: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .inner-box {
+        background-color: #7e6900;
+        width: 120px;
+        height: 120px;
+        border: 2px solid white;
+      }
+      .b3 {
+        background-color: #41464a;
+        width: 12.5%;
+      }
+      .row4 {
+        display: flex;
+      }
+      .b4 {
+        background-color: #41464a;
+        width: 12.5%;
+      }
+
+      .b5 {
+        height: 100px;
+        width: 87.5%;
+        background-color: #00843f;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row1"></div>
+      <div class="row2">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+      </div>
+
+      <div class="row3">
+        <div class="b1"></div>
+        <div class="b2">
+          <div class="inner-box"></div>
+        </div>
+        <div class="b3"></div>
+      </div>
+
+      <div class="row4">
+        <div class="b5"></div>
+        <div class="b4"></div>
+      </div>
+    </div>
+  </body>
+</html>
